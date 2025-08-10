@@ -33,7 +33,6 @@ metadata:
     project: roboshop
     app: app2
 spec:
-  type: LoadBalancer
   selector:
       purpose: ingress
       project: roboshop
