@@ -51,7 +51,7 @@ metadata:
     alb.ingress.kubernetes.io/load-balancer-name: ingress-alb
     alb.ingress.kubernetes.io/group.name: roboshop
     alb.ingress.kubernetes.io/scheme: internet-facing
-    alb.ingress.kubernetes.io/listen-ports: [{"HTTPS": 443}]
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS": 443}]'
     alb.ingress.kubernetes.io/target-type:  ip
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:582834785619:certificate/f5f23b09-8796-4687-8363-3623f3198d61
 spec:
