@@ -33,7 +33,6 @@ metadata:
     project: roboshop
     app: app1
 spec:
-  type: LoadBalancer
   selector:
       purpose: ingress
       project: roboshop
@@ -66,4 +65,4 @@ spec:
           service:
             name: app1
             port:
-              number: 80 #service port number
+              number: 80 #service port number of app1
